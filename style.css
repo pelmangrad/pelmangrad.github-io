@@ -1,0 +1,156 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.titleh {
+	font-weight: 100;
+	font-size: 7vmin;
+	width: 100%;
+	text-align: center;
+	filter: none;
+	color: white;
+}
+h3 {
+	text-align: center;
+	margin-top: 10px;
+	width: 100%;
+	filter: none;
+	color: white;
+} 
+a {
+	text-decoration: none;
+	color: black;
+}
+nav {
+	display: flex;
+	justify-content: center;
+	margin: 15px 0;
+	width: 100%;
+}
+.nav-link {
+	margin: 0 10px;
+	border-bottom: none;
+		transition: 0.5s color;
+	-webkit-transition: 0.5s color;
+	-moz-transition: 0.5s color;
+}
+.icon {
+	width: 50px;
+	height: 50px;
+	margin: 0 10px;
+}
+.cs {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.icon-holder {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.img {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+img {
+	max-width: 70vw;
+	height: auto;
+}
+.sub-text {
+	text-align: center;
+	margin-top: 40px;
+}
+.bg {
+	background-color: #eeeeee;
+	width: 100%;
+	height: 100%;
+	margin: 10px 0;
+}
+@media screen and (max-width: 850px){
+	.img{
+		display: none;
+	}
+	img {
+		display: none;
+	}
+	.descr{
+		width: 100%;
+	}
+}
+.descr {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 80vmax;
+}
+.block{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 10vmax;
+}
+a:hover{
+	transition: 0.5s color;
+	-webkit-transition: 0.5s color;
+	-moz-transition: 0.5s color;
+
+	color: #66bb6a; 
+	border-bottom: solid #66bb6a 1px; 
+}
+#title {
+	background-image: url('img/p1.png');
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	height: 500px;
+}
+h2 {
+	color: black;
+	font-size: 3vmin;
+}
+.form-text {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 5vmin;
+}
+.joinus {
+	margin: 10px 50px;
+
+}
+.lined-ref {
+	text-decoration: underline;
+	border: none !important;
+}
+.lined-ref::hover{
+	border: none !important;
+}
+.f-button{
+	margin: 10px 30vw;
+	background-color:#66bb6a;
+	border-radius: 30px;
+	border: none;
+	padding: 10px 0; 
+	color: white;
+	transition: 0.5s background-color;
+	-webkit-transition: 0.5s background-color;
+	-moz-transition: 0.5s background-color;
+}
+.f-button:hover{
+	background-color: #43a047;
+	transition: 0.5s background-color;
+	-webkit-transition: 0.5s background-color;
+	-moz-transition: 0.5s background-color;
+}
+footer {
+	margin: 50px 0 ;
+	display: flex;
+	justify-content: center;
+}
